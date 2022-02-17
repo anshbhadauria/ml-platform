@@ -1,1 +1,7 @@
 
+project_name: "{{ cookiecutter.project_name.lower() }}"
+repo_name: "{{ cookiecutter.project_name.lower().replace(' ', '_') }}"
+s3_bucketname: "{{ cookiecutter.s3_bucketname }}"
+s3_endpointurl: "{{ cookiecutter.s3_endpointurl }}"
+mlflow_tracking_uri: "{{ cookiecutter.mlflow_tracking_uri }}"
+mlflow_artifacts_uri": "MLflow tracking uri. S3 link"
