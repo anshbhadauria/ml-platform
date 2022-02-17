@@ -1,0 +1,11 @@
+{
+    "project_name": "project_name",
+    "description": "A short description of the project.",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "s3_bucketname": "Name of the s3 bucket for the project",
+    "s3_endpointurl": "The endpoint url for s3",
+    "mlflow_tracking_uri": "MLflow tracking uri. Postgresql link",
+    "aws_profile": "default",
+    "python_interpreter": ["python3", "python"]
+
+}
